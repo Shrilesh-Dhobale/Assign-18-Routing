@@ -14,3 +14,12 @@
     color: #555;
     font-family: cursive;
 }
+.order-button{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #b06448;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
