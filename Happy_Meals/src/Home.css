@@ -4,3 +4,8 @@
     background-color: #ffefd5;
     height: 100vh;
 }
+.main-heading {
+    font-size: 48px;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
