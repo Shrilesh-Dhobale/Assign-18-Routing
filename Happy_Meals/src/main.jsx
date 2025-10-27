@@ -2,7 +2,7 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Home from './Home.jsx'
-
+import About from './About.jsx'
 
 
 const root=createRoot(document.getElementById('root'));
