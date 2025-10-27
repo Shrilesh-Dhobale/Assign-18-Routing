@@ -7,3 +7,7 @@ import Home from './Home.jsx'
 
 const root=createRoot(document.getElementById('root'));
 const path=window.location.pathname;
+
+if(path==="/"){
+    root.render(<Home />);
+}
