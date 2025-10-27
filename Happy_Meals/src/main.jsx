@@ -4,6 +4,7 @@ import './index.css'
 import Home from './Home.jsx'
 import About from './About.jsx'
 import Order from './Order.jsx'
+import NotFound from './NotFound.jsx'
 
 const root=createRoot(document.getElementById('root'));
 const path=window.location.pathname;
@@ -16,4 +17,7 @@ else if(path==="/about"){
 }
 else if(path==="/order"){
     root.render(<Order />);
+}
+else {
+    root.render(<NotFound />);
 }
