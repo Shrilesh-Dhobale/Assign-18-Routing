@@ -11,3 +11,6 @@ const path=window.location.pathname;
 if(path==="/"){
     root.render(<Home />);
 }
+else if(path==="/about"){
+        root.render(<About />);
+}
