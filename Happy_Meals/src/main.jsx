@@ -12,5 +12,8 @@ if(path==="/"){
     root.render(<Home />);
 }
 else if(path==="/about"){
-        root.render(<About />);
+    root.render(<About />);
+}
+else if(path==="/order"){
+    root.render(<Order />);
 }
