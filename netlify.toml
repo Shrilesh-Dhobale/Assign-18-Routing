@@ -1,0 +1,4 @@
+[build]
+  base = "Happy_Meals"
+  command = "npm run build"
+  publish = "dist"
